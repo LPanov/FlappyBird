@@ -1,4 +1,4 @@
-# Flappy Bird clone
+# Flappy Bird
 
 import pygame
 import sys
