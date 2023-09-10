@@ -11,7 +11,7 @@ clock = pygame.time.Clock()
 SPAWNPIPE = pygame.USEREVENT
 pygame.time.set_timer(SPAWNPIPE, 1800)
 
-game = Game('https://github.com/LPanov/FlappyBird/blob/main/bird.png', 'C:/IOT and CC++ courses/Python Codio/pipe.png', 'C:/IOT and CC++ courses/Python Codio/background.png', 'C:/IOT and CC++ courses/Python Codio/ground.png')
+game = Game('./bird.png', './pipe.png', './background.png', './ground.png')
 game.resize_images()
 
 while True:
